@@ -5,6 +5,8 @@ import { useGSAP } from "@gsap/react"
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Side from './components/SideIcons'
+import Projects from './components/Projects'
+import Skills from './components/Skills'
 
 gsap.registerPlugin(ScrollTrigger, SplitText)
 
@@ -17,7 +19,6 @@ function App() {
       gsap.to(".cursor", {x: e.clientX - size/2, y: e.clientY - size/2, ease:'back'})
   }
   window.addEventListener('mousemove', mouseMove)
-    // gsap.to(".cursor", {x: 400, y: 500} )
   })
 
   return (
@@ -27,6 +28,8 @@ function App() {
       <Navbar/>
       <Hero/>
       <Side/>
+      <Projects/>
+      <Skills />
       <div>brevv</div>
       <div>brevv</div>
       <div>brevv</div>
