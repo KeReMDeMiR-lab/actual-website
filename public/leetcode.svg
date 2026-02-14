@@ -22,7 +22,7 @@
   <!-- Black circular background with cutout logo -->
   <circle
     cx="32"
-    cy="32"
+    cy="33"
     r="32"
     fill="black"
     mask="url(#leetcode-cutout)"
